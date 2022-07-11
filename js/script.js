@@ -22,12 +22,12 @@
  */
 
 
- $(document).on('click', function(){
+ /* $(document).on('click', function(){
    document.getElementById("my_audio").play();
-});
+}); */
 
 function myFunction() {
-    alert('hi');
+    document.getElementById("my_audio").play();
   }
 // Set the date we're counting down to
 var countDownDate = new Date("Sep 17, 2022 00:00:00").getTime();
