@@ -21,9 +21,18 @@
  *
  */
 
+var clicked=false;
 
 $(document).on('click', function(){
-   document.getElementById("my_audio").play();
+    if(clicked == false){
+        document.getElementById("my_audio").play();
+        clicked=true
+    } else {
+        document.getElementById("my_audio").pause();
+        clicked=false
+    }
+         
+    
 });  
 
 
