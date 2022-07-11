@@ -22,9 +22,9 @@
  */
 
 
- /* $(document).on('click', function(){
+/*   $(document).on('click', function(){
    document.getElementById("my_audio").play();
-}); */
+});  */
 
 function myFunction() {
     document.getElementById("my_audio").play();
