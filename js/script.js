@@ -23,7 +23,7 @@
 
 var clicked=false;
 
-$(document).on('click', function(){
+/*$(document).on('click', function(){
     if(clicked == false){
         document.getElementById("my_audio").play();
         clicked=true
@@ -33,7 +33,7 @@ $(document).on('click', function(){
     }
          
     
-});  
+}); */ 
 
 
 // Set the date we're counting down to
