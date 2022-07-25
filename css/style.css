@@ -365,6 +365,15 @@ img {
 	}
 }
 
+.location{
+	max-width: 2%;
+}
+@media (max-width:900px) {
+	.location{
+		max-width: 5%;
+	}
+}
+
 .top-right-decoration {
 	position: absolute;
 	top: 0;
@@ -540,7 +549,8 @@ body {
 .venue {
 	width: auto;
 	height: auto;
-	background-color: #674ea7;
+	/*background-color: #674ea7;*/
+	background: linear-gradient(90deg, #a33ab3, #7158ac);
 	border-radius: 16px;
 	text-align: center;
 	color: #fff;
@@ -649,4 +659,5 @@ a {
 	display: flex;
 	font-size: 12px;
 	letter-spacing: 0pt;
+	text-align: center;
 }
