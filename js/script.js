@@ -21,18 +21,22 @@
  *
  */
 
-var clicked=false;
+var clicked=0;
 function myFunction() {
     
-    if(clicked == false){
+    if(clicked == 0){
+        
+        //clicked=true
+        alert('0 ');
         document.getElementById("my_audio").play();
-        clicked=true
-        alert('touch play')
-    } else {
-        document.getElementById("my_audio").pause();
-        clicked=false
-        alert('pause')
+    } else if (clicked == 1){
+        alert('1 ');
+        document.getElementById("my_audio").play();
+    } else if (clicked == 2){
+        alert('2 ');
+        document.getElementById("my_audio").play();
     }
+    clicked=clicked+1;
     
   }
 /*$(document).on('click', function(){
