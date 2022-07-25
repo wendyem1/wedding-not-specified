@@ -22,7 +22,9 @@
  */
 
 var clicked=false;
-
+function myFunction() {
+    alert('hi');
+  }
 /*$(document).on('click', function(){
     if(clicked == false){
         document.getElementById("my_audio").play();
@@ -33,7 +35,7 @@ var clicked=false;
     }
          
     
-}); */ 
+});  */
 
 
 // Set the date we're counting down to
