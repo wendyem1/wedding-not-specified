@@ -23,7 +23,7 @@
 
 var clicked=false;
 function myFunction() {
-    alert('hi');
+    document.getElementById("my_audio").play();
   }
 /*$(document).on('click', function(){
     if(clicked == false){
