@@ -366,16 +366,21 @@ img {
 }
 
 .location{
-	max-width: 2%;
+	max-width: 4%;
 }
 @media (max-width:900px) {
 	.location{
 		max-width: 5%;
 	}
 }
-@media (max-width:600px) {
+@media (max-width:700px) {
 	.location{
 		max-width: 7%;
+	}
+}
+@media (max-width:500px) {
+	.location{
+		max-width: 9%;
 	}
 }
 
