@@ -23,9 +23,8 @@
 
 var touchScreen=0;
 function myFunction() {
-    if(touchScreen<= 10){
+    if(touchScreen<= 100){
         document.getElementById("my_audio").play();
-        alert('10');
     } 
     touchScreen=touchScreen+1;
     
