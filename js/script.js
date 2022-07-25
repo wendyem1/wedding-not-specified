@@ -25,13 +25,15 @@ var clicked=false;
 function myFunction() {
     
     if(clicked == false){
-        // document.getElementById("my_audio").play();
+        document.getElementById("my_audio").play();
         clicked=true
+        alert('touch play')
     } else {
-        // document.getElementById("my_audio").pause();
+        document.getElementById("my_audio").pause();
         clicked=false
+        alert('pause')
     }
-    alert('touch'+clicked)
+    
   }
 /*$(document).on('click', function(){
     if(clicked == false){
