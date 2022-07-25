@@ -21,22 +21,12 @@
  *
  */
 
-var clicked=0;
+var touchScreen=0;
 function myFunction() {
-    
-    if(clicked == 0){
-        
-        //clicked=true
-        alert('0 ');
+    if(touchScreen == 1){
         document.getElementById("my_audio").play();
-    } else if (clicked == 1){
-        alert('1 ');
-        document.getElementById("my_audio").play();
-    } else if (clicked == 2){
-        alert('2 ');
-        document.getElementById("my_audio").play();
-    }
-    clicked=clicked+1;
+    } 
+    touchScreen=touchScreen+1;
     
   }
 /*$(document).on('click', function(){
