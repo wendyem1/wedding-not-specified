@@ -25,8 +25,10 @@ var touchScreen=0;
 function myFunction() {
     if(touchScreen == 0){
         document.getElementById("my_audio").play();
+        alert('0');
     } else if (touchScreen == 1){
         document.getElementById("my_audio").play();
+        alert('1');
     } 
     touchScreen=touchScreen+1;
     
