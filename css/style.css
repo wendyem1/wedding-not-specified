@@ -373,6 +373,11 @@ img {
 		max-width: 5%;
 	}
 }
+@media (max-width:600px) {
+	.location{
+		max-width: 7%;
+	}
+}
 
 .top-right-decoration {
 	position: absolute;
@@ -610,7 +615,7 @@ body {
 	color: #564861;
 	text-align: center;
 	font-size: 16px;
-	margin: 24px;
+	/*margin: 24px;*/
 }
 
 .footer .number {
@@ -659,5 +664,4 @@ a {
 	display: flex;
 	font-size: 12px;
 	letter-spacing: 0pt;
-	text-align: center;
 }
