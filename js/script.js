@@ -23,7 +23,9 @@
 
 var touchScreen=0;
 function myFunction() {
-    if(touchScreen == 1){
+    if(touchScreen == 0){
+        document.getElementById("my_audio").play();
+    } else if (touchScreen == 1){
         document.getElementById("my_audio").play();
     } 
     touchScreen=touchScreen+1;
