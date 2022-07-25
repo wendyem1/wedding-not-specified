@@ -23,7 +23,14 @@
 
 var clicked=false;
 function myFunction() {
-    document.getElementById("my_audio").play();
+    alert('touch');
+    if(clicked == false){
+        document.getElementById("my_audio").play();
+        clicked=true
+    } else {
+        document.getElementById("my_audio").pause();
+        clicked=false
+    }
   }
 /*$(document).on('click', function(){
     if(clicked == false){
