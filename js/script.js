@@ -23,14 +23,15 @@
 
 var clicked=false;
 function myFunction() {
-    alert('touch');
+    
     if(clicked == false){
-        document.getElementById("my_audio").play();
+        // document.getElementById("my_audio").play();
         clicked=true
     } else {
-        document.getElementById("my_audio").pause();
+        // document.getElementById("my_audio").pause();
         clicked=false
     }
+    alert('touch'+clicked)
   }
 /*$(document).on('click', function(){
     if(clicked == false){
