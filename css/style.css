@@ -624,9 +624,10 @@ body {
 .footer {
 	color: #564861;
 	text-align: center;
-	font-size: 10px;
+	font-size: 14px;
 	/*margin: 24px;*/
 }
+
 
 .footer .number {
 	color: #564861;
