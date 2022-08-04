@@ -366,7 +366,7 @@ img {
 }
 
 .location{
-	max-width: 7%;
+	max-width: 6%;
 }
 /* @media (max-width:900px) {
 	.location{
@@ -624,7 +624,7 @@ body {
 .footer {
 	color: #564861;
 	text-align: center;
-	font-size: 16px;
+	font-size: 10px;
 	/*margin: 24px;*/
 }
 
