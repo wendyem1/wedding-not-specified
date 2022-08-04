@@ -366,24 +366,24 @@ img {
 }
 
 .location{
-	max-width: 6%;
+	max-width: 3%;
 }
-/* @media (max-width:900px) {
+ @media (max-width:900px) {
 	.location{
-		max-width: 5%;
+		max-width: 4%;
 	}
 }
 @media (max-width:700px) {
 	.location{
-		max-width: 7%;
+		max-width:5%;
 	}
 }
-@media (max-width:500px) {
+@media (max-width:550px) {
 	.location{
-		max-width: 9%;
+		max-width: 6%;
 	}
 }
-@media (max-width:400px) {
+/*@media (max-width:400px) {
 	.location{
 		max-width: 9%;
 	}
