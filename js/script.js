@@ -21,14 +21,14 @@
  *
  */
 
-var touchScreen=0;
+/*var touchScreen=0;
 function myFunction() {
     if(touchScreen<= 100){
         document.getElementById("my_audio").play();
     } 
     touchScreen=touchScreen+1;
     
-  }
+  }*/
 /*$(document).on('click', function(){
     if(clicked == false){
         document.getElementById("my_audio").play();

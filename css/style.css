@@ -366,9 +366,9 @@ img {
 }
 
 .location{
-	max-width: 4%;
+	max-width: 5%;
 }
-@media (max-width:900px) {
+/* @media (max-width:900px) {
 	.location{
 		max-width: 5%;
 	}
@@ -385,9 +385,9 @@ img {
 }
 @media (max-width:400px) {
 	.location{
-		max-width: 12%;
+		max-width: 9%;
 	}
-}
+} */
 
 .top-right-decoration {
 	position: absolute;
